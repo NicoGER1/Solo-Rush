@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Portfolio Nicolas Gerin</title>
-    <link rel="stylesheet" href="./styles/index.css" />
   </head>
 
   <body>
@@ -12,17 +12,17 @@
       <img src="assets/logo.png" alt="logo" />
       <nav>
         <ul>
-          <li>A propos</li>
-          <li>Projets</li>
-          <li>Contact</li>
+          <li><a href="#About">A propos</a></li>
+          <li><a href="Projets">Projets</a></li>
+          <li><a href="Contact">Contact</a></li>
         </ul>
       </nav>
-      <img src="assets/Nico copie.jpg" alt="Avatar" />
+      <img src="assets/Nico copie.jpg" alt="Portrait de Nicolas" />
       <h1>Nicolas GERIN</h1>
     </header>
     <main>
       <section>
-        <h2>A propos de moi..</h2>
+        <h2 id="About">A propos de moi..</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dicta
           cumque eos omnis obcaecati nulla molestias beatae vitae mollitia earum
@@ -35,7 +35,7 @@
         </p>
       </section>
       <section>
-        <h2>Projets</h2>
+        <h2 id="Projets">Projets</h2>
         <article>
           <img src="assets/Projet1.png" alt="capture du site du projet" />
           <h3>Welcome to Colchis</h3>
@@ -51,7 +51,7 @@
         </article>
       </section>
       <section>
-        <h2>Contact</h2>
+        <h2 id="Contact">Contactez moi</h2>
         <form id="contactForm">
           <label for="name">First name:</label><br />
           <input type="text" id="name" name="name" placeholder="nom" /><br />
@@ -66,12 +66,17 @@
           <textarea id="message" name="message"></textarea><br />
           <input type="submit" placeholder="Submit" />
         </form>
-        <img src="assets/linkedin.png" alt="logo linkedin" />
-        <img src="assets/github.png" alt="logo github" />
+        <a target="blank" href="https://www.linkedin.com/in/nicolas-gerin/"
+          ><img src="assets/linkedin.png" alt="logo linkedin"
+        /></a>
+        <a target="blank" href="https://github.com/NicoGER1"
+          ><img src="assets/github.png" alt="logo github"
+        /></a>
       </section>
     </main>
     <footer>
       <p>© Copyright Nicolas GERIN - 2024</p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
