@@ -3,35 +3,75 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-
-    <title>Portfolio de Nicolas Gerin</title>
+    <title>Portfolio Nicolas Gerin</title>
+    <link rel="stylesheet" href="./styles/index.css" />
   </head>
+
   <body>
-    <header class="hero-banner">
-      <nav class="nav">
-        <img src="assets/logo.svg" alt="logo de la wild" class="logo" />
+    <header>
+      <img src="assets/logo.png" alt="logo" />
+      <nav>
         <ul>
-          <li>
-            <a href="#Articles">Articles</a>
-          </li>
-          <li>
-            <a href="#About">About</a>
-          </li>
-          <li>
-            <a href="#Contact">Contact</a>
-          </li>
+          <li>A propos</li>
+          <li>Projets</li>
+          <li>Contact</li>
         </ul>
       </nav>
-      <section class="section">
-        <h1 class="h1">Welcome<br />on board!</h1>
-        <img src="assets/avatar.png" alt="avatar" class="avatar" />
-      </section>
+      <img src="assets/Nico copie.jpg" alt="Avatar" />
+      <h1>Nicolas GERIN</h1>
     </header>
-    <main></main>
-
+    <main>
+      <section>
+        <h2>A propos de moi..</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dicta
+          cumque eos omnis obcaecati nulla molestias beatae vitae mollitia earum
+          debitis illum, dolorum incidunt dignissimos alias totam vel!
+          Doloremque impedit ut quis tempora laborum quod deleniti tenetur enim?
+          Corrupti sint unde suscipit qui aspernatur cupiditate neque magnam
+          fuga similique perferendis eos tenetur recusandae facilis, dolorum
+          fugit odit beatae velit. Distinctio sit quaerat magni quos praesentium
+          animi nesciunt illum magnam voluptatum.
+        </p>
+      </section>
+      <section>
+        <h2>Projets</h2>
+        <article>
+          <img src="assets/Projet1.png" alt="capture du site du projet" />
+          <h3>Welcome to Colchis</h3>
+          <button>Voir</button>
+        </article>
+        <article>
+          <img
+            src="assets/projet2.png"
+            alt="capture de la page d'acceuil du site"
+          />
+          <h3>Bienvenue a bord</h3>
+          <button>Voir</button>
+        </article>
+      </section>
+      <section>
+        <h2>Contact</h2>
+        <form id="contactForm">
+          <label for="name">First name:</label><br />
+          <input type="text" id="name" name="name" placeholder="nom" /><br />
+          <label for="email">Email:</label><br />
+          <input
+            type="email"
+            sid="email"
+            name="email"
+            placeholder="example@mail.com"
+          /><br />
+          <label for="message">Message:</label><br />
+          <textarea id="message" name="message"></textarea><br />
+          <input type="submit" placeholder="Submit" />
+        </form>
+        <img src="assets/linkedin.png" alt="logo linkedin" />
+        <img src="assets/github.png" alt="logo github" />
+      </section>
+    </main>
     <footer>
-      <p></p>
+      <p>© Copyright Nicolas GERIN - 2024</p>
     </footer>
   </body>
 </html>
