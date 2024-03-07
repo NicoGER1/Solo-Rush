@@ -154,7 +154,7 @@ footer {
 
 @media screen and (min-width: 640px) {
   header {
-    background-image: url(/assets/backgroundimg.png);
+    background-image: url(assets/backgroundimg.png);
     background-size: cover;
     grid-template-columns: 50px 1fr 1fr;
     grid-template-rows: 50px 1fr;
